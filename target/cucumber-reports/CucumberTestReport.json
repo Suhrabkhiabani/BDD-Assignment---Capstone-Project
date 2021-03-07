@@ -1,0 +1,438 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2494885300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81664500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click  on MyAccount",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3703127300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 681170900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter username \u0027jamal@gmail.com\u0027 and password \u0027asdf\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jamal@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "asdf",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472860500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3355424600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3159787300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Register as an Affiliate userwith Cheque Payment Method",
+        "description": "",
+        "id": "retail-page-login-testing;register-as-an-affiliate-userwith-cheque-payment-method",
+        "after": [
+          {
+            "result": {
+              "duration": 825550400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 324022600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on‘Register for an Affiliate Account’link",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Register_for_an_Affiliate_Account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436125400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill affiliate form with below information",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_fill_affiliate_form_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "company",
+                  "website",
+                  "taxID",
+                  "Cheque Payee Name"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Landover",
+                  "www.Landover.com",
+                  "121014",
+                  "David Dawson"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77542300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User check on About us check box",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_check_on_About_us_check_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561887300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Continue button affiliate",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Continue_button_affiliate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360592600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should see a success messages",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_messages()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TEsting"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2337363400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487122500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click  on MyAccount",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3717380000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733212800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter username \u0027jamal@gmail.com\u0027 and password \u0027asdf\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jamal@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "asdf",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432381500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3346803000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1787321600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "description": "",
+        "id": "retail-page-login-testing;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
+        "after": [
+          {
+            "result": {
+              "duration": 777676100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 321285300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on‘Edit your affiliate informationlink",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_affiliate_informationlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86203900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click on Bank Transfer radio button",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Bank_Transfer_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 520360300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User fill Bank information with below information",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_fill_Bank_information_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bankName",
+                  "abaNumber",
+                  "swiftCode",
+                  "accountName",
+                  "accountNumber"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "Bank of America",
+                  "100200",
+                  "225588",
+                  "Suhrab",
+                  "112233665544"
+                ],
+                "line": 29
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456658400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on Continue AffiliateButton",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_affiliatebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350827300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should see a success message",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@TEsting"
+          }
+        ]
+      }
+    ],
+    "name": "Retail Page Login Testing",
+    "description": "",
+    "id": "retail-page-login-testing",
+    "keyword": "Feature",
+    "uri": "Features/RetailPageLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@JenkinTest"
+      }
+    ]
+  }
+]
