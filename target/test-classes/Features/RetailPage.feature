@@ -44,7 +44,7 @@ Scenario: Register and Account test case
 			And User click on Register option 
 			And User fill the Registration form with Below information 
 				|firstName|lastName|email|telephone|password|confirmPassword|subscribe|
-				|Josh|Pazour|Josh@gmail.com|454151920|test|test|no|
+				|Polina|Zohal|PolinaZohal@gmail.com|45414578920|testt|testt|no|
 			And user acceptthe privacy and policy 
 			And User click on Continue button 
 			Then User should be registered in Retail Website
